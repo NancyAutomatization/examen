@@ -34,6 +34,9 @@ public class Examen
         inputBuscar.sendKeys("Alexa");
         inputBuscar.submit();
         Thread.sleep(2000);
+        WebElement inputLink = driver.findElement(By.xpath("//div[@class='cfxYMc JfZTW c4Djg MUxGbd v0nnCb']"));
+        inputLink.click();
+        Thread.sleep(2000);
 
     }
 
